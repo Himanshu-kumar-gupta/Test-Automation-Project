@@ -1,55 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-06T22:04:45 IST" name="Default suite" finished-at="2022-04-06T22:04:45 IST" duration-ms="59">
+  <suite started-at="2022-04-11T14:52:01 IST" name="Default suite" finished-at="2022-04-11T14:52:52 IST" duration-ms="50311">
     <groups>
     </groups>
-    <test started-at="2022-04-06T22:04:45 IST" name="Default test" finished-at="2022-04-06T22:04:45 IST" duration-ms="59">
-      <class name="Pack1.BaseTest">
-        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:Pack1.BaseTest@4a883b15]" started-at="2022-04-06T22:04:45 IST" name="setUpBrowser" finished-at="2022-04-06T22:04:45 IST" duration-ms="15" status="PASS">
+    <test started-at="2022-04-11T14:52:01 IST" name="Default test" finished-at="2022-04-11T14:52:52 IST" duration-ms="50311">
+      <class name="Pack1.ExtentReport1">
+        <test-method is-config="true" signature="launchingBrowser()[pri:0, instance:Pack1.ExtentReport1@e350b40]" started-at="2022-04-11T14:52:01 IST" name="launchingBrowser" finished-at="2022-04-11T14:52:41 IST" duration-ms="39864" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpBrowser -->
-        <test-method is-config="true" signature="tearDown(org.openqa.selenium.WebDriver)[pri:0, instance:Pack1.BaseTest@4a883b15]" started-at="2022-04-06T22:04:45 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1649262885775" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Can inject only one of <ITestContext, XmlTest> into a @AfterTest annotated tearDown.
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Can inject only one of <ITestContext, XmlTest> into a @AfterTest annotated tearDown.
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
-at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
-at org.testng.internal.Parameters.createParameters(Parameters.java:708)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
-at org.testng.TestRunner.afterRun(TestRunner.java:877)
-at org.testng.TestRunner.run(TestRunner.java:599)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        </test-method> <!-- launchingBrowser -->
+        <test-method is-config="true" signature="initializeReport()[pri:0, instance:Pack1.ExtentReport1@e350b40]" started-at="2022-04-11T14:52:41 IST" name="initializeReport" finished-at="2022-04-11T14:52:41 IST" duration-ms="128" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Pack1.BaseTest -->
+        </test-method> <!-- initializeReport -->
+        <test-method signature="containsText()[pri:0, instance:Pack1.ExtentReport1@e350b40]" started-at="2022-04-11T14:52:41 IST" name="containsText" finished-at="2022-04-11T14:52:51 IST" duration-ms="9943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- containsText -->
+        <test-method signature="cartButton()[pri:1, instance:Pack1.ExtentReport1@e350b40]" started-at="2022-04-11T14:52:51 IST" name="cartButton" finished-at="2022-04-11T14:52:51 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartButton -->
+        <test-method signature="buyN()[pri:2, instance:Pack1.ExtentReport1@e350b40]" started-at="2022-04-11T14:52:51 IST" name="buyN" finished-at="2022-04-11T14:52:51 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyN -->
+        <test-method signature="enterYourLoginName()[pri:3, instance:Pack1.ExtentReport1@e350b40]" started-at="2022-04-11T14:52:51 IST" name="enterYourLoginName" finished-at="2022-04-11T14:52:51 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterYourLoginName -->
+        <test-method signature="quanButtton()[pri:4, instance:Pack1.ExtentReport1@e350b40]" started-at="2022-04-11T14:52:51 IST" name="quanButtton" finished-at="2022-04-11T14:52:51 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quanButtton -->
+        <test-method is-config="true" signature="publishingReport()[pri:0, instance:Pack1.ExtentReport1@e350b40]" started-at="2022-04-11T14:52:51 IST" name="publishingReport" finished-at="2022-04-11T14:52:52 IST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publishingReport -->
+        <test-method is-config="true" signature="destroyingSession()[pri:0, instance:Pack1.ExtentReport1@e350b40]" started-at="2022-04-11T14:52:52 IST" name="destroyingSession" finished-at="2022-04-11T14:52:52 IST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroyingSession -->
+      </class> <!-- Pack1.ExtentReport1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

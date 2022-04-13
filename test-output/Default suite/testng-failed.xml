@@ -3,19 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Pack1.ExtentReport1">
+      <class name="Pack1.Logs">
         <methods>
-          <include name="enterYourLoginName"/>
-          <include name="verifyingTitle"/>
-          <include name="goToValorant"/>
-          <include name="destroyingSession"/>
-          <include name="clickOnSign"/>
-          <include name="launchingBrowser"/>
-          <include name="initializeReport"/>
-          <include name="publishingReport"/>
-          <include name="pressContinueAfterLoginNameIsEntered"/>
+          <include name="login1"/>
+          <include name="beforeLogin"/>
+          <include name="afterLogin"/>
         </methods>
-      </class> <!-- Pack1.ExtentReport1 -->
+      </class> <!-- Pack1.Logs -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
